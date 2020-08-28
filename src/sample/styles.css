@@ -1,0 +1,31 @@
+#pane{
+    -fx-background-image: url("/resources/puzzbg.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#layout{
+    -fx-background-image: url("/resources/layout.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.logo{
+    -fx-background-image: url("/resources/logo.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+
+.my-button {
+    -fx-graphic: url("/resources/playicon.png");
+    -fx-background-position: center bottom;
+}
+
+.my-button:hover {
+    -fx-graphic: url("/resources/hoveredPlayIcon.png");
+    -fx-background-position: center bottom;
+}
